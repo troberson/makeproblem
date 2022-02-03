@@ -43,8 +43,6 @@ def make_file(root, book, chapter, section, problem):
             name += f'_{int(args.section):02d}'
 
         title += f' \#{problem}'
-    else:
-        title = problem
 
     name += f'_{int(args.problem):02d}'
 
